@@ -1,6 +1,6 @@
 {
   "name": "mkstream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Makes streams",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,5 @@
   },
   "repository": "",
   "author": "",
-  "license": "BSD",
-  "dependencies": {
-    "inherits": "~1.0.0"
-  }
+  "license": "BSD"
 }
