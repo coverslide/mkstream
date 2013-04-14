@@ -7,6 +7,8 @@ function makeStream(target){
   inherits(Stream, target)
 }
 
+//streams2 methods added for convenience so I don't have to re-require them
+//remember to call the constructor on all instantiated objects
 makeStream.Readable = Stream.Readable
 makeStream.makeReadable = function(target, options){
   inherits(Stream.Readable, target)
