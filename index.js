@@ -4,7 +4,7 @@ module.exports = makeStream
 
 makeStream.Stream = Stream
 function makeStream(target){
-  target.prototype = Object.create(Stream, {constructor: {value: target}})
+  target.prototype = Object.create(Stream.prototype, {constructor: {value: target}})
 }
 
 //streams2 methods added for convenience so I don't have to re-require them
