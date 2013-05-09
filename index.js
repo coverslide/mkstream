@@ -2,6 +2,7 @@ var Stream = require('stream')
 
 module.exports = makeStream
 
+makeStream.Stream = Stream
 function makeStream(target){
   target.prototype = Object.create(Stream, {constructor: {value: target}})
 }
