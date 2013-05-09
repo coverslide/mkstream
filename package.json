@@ -1,6 +1,6 @@
 {
   "name": "mkstream",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Makes streams",
   "main": "index.js",
   "scripts": {
